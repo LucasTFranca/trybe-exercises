@@ -1,0 +1,7 @@
+h1, p:active {
+    text-align: center;
+}
+#Lista li:hover {
+    background-color: brown;
+    list-style: none;
+}
