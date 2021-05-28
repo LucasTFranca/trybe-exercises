@@ -1,0 +1,28 @@
+body {
+    font-size: 16px;
+  }
+  h1 {
+    width: 65px;
+    color: aqua;
+    font-family: sans-serif;
+    text-decoration: underline;
+  }
+  .tudo {
+    background-color: blueviolet;
+  }
+  #paragrafo {
+    font-weight: 600;
+    font-size: 2em;
+    font-style: italic;
+    line-height: normal;
+    text-align: center;
+  }
+  #a {
+    background-color: rgb(255, 255, 35);
+  }
+  #v {
+    background-color: red;
+  }
+  #m {
+    background-color: brown;
+  }
