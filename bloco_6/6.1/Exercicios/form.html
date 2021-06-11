@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Form</title>
+</head>
+<body class="container">
+  <form class="text-center row g-3">
+    <div class="col-md-4">
+      <label class="form-label" for="nome">Nome<input class="form-control" id="nome" type="text" maxlength="40" placeholder="Nome" required></label>
+    </div>
+
+    <div class="col-md-5">
+      <label class="form-label" for="email">Email<input class="form-control" id="email" type="email" placeholder="name@example.com" maxlength="50" required></label>
+    </div>
+
+    <div class="col-3">
+      <label class="form-label" for="cpf">CPF<input class="form-control" id="cpf" type="text" maxlength="11" placeholder="000.000.000-00" required></label>
+    </div>
+
+    <div class="col-5">
+      <label class="form-label" for="endereco">Endereço<input class="form-control" id="endereco" type="text" maxlength="200" placeholder="Seu endereco, nº77" required></label>
+    </div>
+
+    <div class="col-md-4">
+      <label class="form-label" for="cidade">Cidade<input class="form-control" id="cidade" type="text" maxlength="28" placeholder="Cidade" required></label>
+    </div>
+
+    <div class="col-md-3">
+      <label class="form-label" for="estado">Estado<input class="form-control" id="estado" type="text" placeholder="Estado" required></label>
+    </div>
+
+    <div class="col-12">
+      <div class="col-md-4 form-check">
+        <label class="form-check-label" for="cs">Casa<input id="cs" class="form-check-input" name="casa" type="radio" checked required></label>
+      </div>
+
+      <div class="col-md-4 form-check">
+        <label class="form-check-label" for="ap">Apartamento<input class="form-check-input" id="ap" name="casa" type="radio" required></label>
+      </div>
+    </div>
+
+    <div class="mb-3">
+      <label for="textare">Resumo do currículo<textarea class="form-control form-control-sm" name="textare" id="" cols="100" rows="4" maxlength="1000" required></textarea></label>
+    </div>
+
+    <div class="col-md-4">
+      <label for="cargo">Cargo<input class="form-control" id="cargo" name="carg" type="text" maxlength="40" placeholder="Cargo" required></label>
+    </div>
+
+    <div class="col-md-4">
+      <label for="dscargo">Descrição do cargo<input class="form-control" id="dscargo" name="dscarg" type="text" maxlength="500" placeholder="Atividade" required></label>
+    </div>
+
+    <div class="col-md-4">
+      <label for="data">Data de início<input class="form-control" id="data" name="datt" type="date" required></label>
+    </div>
+
+    <button class="btn btn-success" id="send">Send</button>
+    <button class="btn btn-danger" id="clear">Clear</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
