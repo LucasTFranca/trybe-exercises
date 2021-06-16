@@ -1,0 +1,44 @@
+body {
+  font-size: x-large;
+}
+
+h1 {
+  font-size: large;
+}
+
+h2 {
+  font-size: large;
+}
+
+p {
+  line-height: 30px;
+}
+
+img {
+  max-width: 100%;
+}
+
+figure {
+  margin: 0;
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background-color: blue;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: xx-large;
+  }
+
+  h2 {
+    font-size: xx-large;
+  }
+
+  section {
+    display: flex;
+  }
+}
